@@ -1,23 +1,22 @@
-package com.vietcuong.RsaServerSide.controller;
+package com.vietcuong.simpleCryptography.controller;
 
-import com.vietcuong.RsaServerSide.RSA;
-import com.vietcuong.RsaServerSide.Service.CitizenService;
-import com.vietcuong.RsaServerSide.entiity.Citizen;
-import com.vietcuong.RsaServerSide.entiity.Message;
-import com.vietcuong.RsaServerSide.repository.CitizenRepository;
+import com.vietcuong.simpleCryptography.ServerRSAUtil;
+import com.vietcuong.simpleCryptography.Service.CitizenService;
+import com.vietcuong.simpleCryptography.entiity.Citizen;
+import com.vietcuong.simpleCryptography.entiity.Message;
+import com.vietcuong.simpleCryptography.repository.CitizenRepository;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController
 public class TestController {
 
-    private final RSA rsa;
+    private final ServerRSAUtil rsa;
     private final CitizenRepository citizenRepository;
     private final CitizenService citizenService;
 
-    public TestController(RSA rsa, CitizenRepository citizenRepository, CitizenService citizenService) {
+    public TestController(ServerRSAUtil rsa, CitizenRepository citizenRepository, CitizenService citizenService) {
         this.rsa = rsa;
         this.citizenRepository = citizenRepository;
         this.citizenService = citizenService;

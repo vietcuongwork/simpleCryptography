@@ -1,8 +1,8 @@
-package com.vietcuong.RsaServerSide.Service;
+package com.vietcuong.simpleCryptography.Service;
 
-import com.vietcuong.RsaServerSide.entiity.Citizen;
-import com.vietcuong.RsaServerSide.exception.CitizenNotFoundException;
-import com.vietcuong.RsaServerSide.repository.CitizenRepository;
+import com.vietcuong.simpleCryptography.entiity.Citizen;
+import com.vietcuong.simpleCryptography.exception.CitizenNotFoundException;
+import com.vietcuong.simpleCryptography.repository.CitizenRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;

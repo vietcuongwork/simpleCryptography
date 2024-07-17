@@ -1,4 +1,4 @@
-package com.vietcuong.RsaServerSide.entiity;
+package com.vietcuong.simpleCryptography.entiity;
 
 import jakarta.persistence.*;
 import lombok.Data;

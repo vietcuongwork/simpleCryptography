@@ -1,6 +1,6 @@
-package com.vietcuong.RsaServerSide.repository;
+package com.vietcuong.simpleCryptography.repository;
 
-import com.vietcuong.RsaServerSide.entiity.Citizen;
+import com.vietcuong.simpleCryptography.entiity.Citizen;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package com.vietcuong.RsaServerSide;
+package com.vietcuong.simpleCryptography;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
